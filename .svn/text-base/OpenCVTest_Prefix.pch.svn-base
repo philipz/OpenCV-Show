@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'OpenCVTest' target in the 'OpenCVTest' project
+//
+
+#ifdef __OBJC__
+#import <opencv/cv.h>
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif
