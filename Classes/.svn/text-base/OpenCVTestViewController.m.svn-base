@@ -228,6 +228,7 @@
 	if(imageView.image) {
 		[self showProgressIndicator:@"Saving"];
 		UIImageWriteToSavedPhotosAlbum(imageView.image, self, @selector(finishUIImageWriteToSavedPhotosAlbum:didFinishSavingWithError:contextInfo:), nil);
+        [self hideProgressIndicator];
 	}
 }
 
